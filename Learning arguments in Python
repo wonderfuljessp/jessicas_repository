@@ -1,0 +1,6 @@
+number1 = int(input())
+number2 = int(input())
+def calculate(number1, number2):
+    product = number1 * number2
+    print(product)
+calculate(number1, number2)
