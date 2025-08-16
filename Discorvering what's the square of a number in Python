@@ -1,0 +1,6 @@
+print("Choose the number you want the square of:")
+n = int(input())
+def square_number(n):
+    return n * n
+result = square_number(n)
+print(f"The square of {n} is {result}")
