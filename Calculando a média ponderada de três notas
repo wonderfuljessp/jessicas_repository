@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+int main(){
+	float N1, N2, N3, P1, P2, P3, media;
+	std::cout << "Calculo da media ponderada de tres notas!" << std::endl;
+	std::cout << "Insira o valor da primeira nota: " << std::endl;
+	std::cin >> N1;
+	std::cout << "Insira o peso da primeira nota: " << std::endl;
+	std::cin >> P1;
+	std::cout << "Insira o valor da segunda nota: " << std::endl;
+	std::cin >> N2;
+	std::cout << "Insira o peso da segunda nota: " << std::endl;
+	std::cin >> P2;
+	std::cout << "Insira o valor da terceira nota: " << std::endl;
+	std::cin >> N3;
+	std::cout << "Insira o peso da terceira nota: " << std::endl;
+	std::cin >> P3;
+	media = ((N1 * P1) + (N2 * P2) + (N3 * P3)) / (P1 + P2 + P3);
+	std::cout << "A media das notas eh: " << std::fixed << std::setprecision(2) << media << std::endl;
+	return 0;
+}
