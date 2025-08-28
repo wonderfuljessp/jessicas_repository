@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+int main(){
+	float PI = 3.14, radius, area;
+	std::cout << "Insira o valor do raio do circulo: " << std::endl;
+	std::cin >> radius;
+	area = PI * pow(radius, 2);
+	std::cout << "A area do circulo eh: " << area << std::endl;
+	return 0;
+}
