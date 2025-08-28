@@ -1,0 +1,13 @@
+#include <iostream>
+int main(){
+	float G1, G2, G3, AVG;
+	std::cout<< "Insira a primeira nota: " << std::endl;
+	std::cin >> G1;
+	std::cout << "Insira a segunda nota: " << std::endl;
+	std::cin >> G2;
+	std::cout << "Insira a terceira nota: " << std::endl;
+	std::cin >> G3;
+	AVG = (G1 + G2 + G3) / 3;
+	std::cout << "A media eh: " << AVG << std::endl;
+	return 0;
+}
