@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>]
+int main(){
+	int A, B, C, soma_quadrados;
+	std::cout << "Insira o valor de A: " << std::endl;
+	std::cin >> A;
+	std::cout << "Insira o valor de B: " << std::endl;
+	std::cin >> B;
+	std::cout << "Insira o valor de C: " << std::endl;
+	std::cin >> C;
+	soma_quadrados = pow(A, 2) + pow(B, 2) + pow(C, 2);
+	std::cout << "A soma dos quadrados de A, B e C eh: " << soma_quadrados << std::endl;
+}
