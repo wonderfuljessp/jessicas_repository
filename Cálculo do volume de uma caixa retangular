@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+int main(){
+	float altura, comprimento, largura, volume;
+	std::cout << "Calculo do volume de uma caixa retangular!" << std::endl;
+	std::cout << "Insira o valor da altura da caixa retangular: " << std::endl;
+	std::cin >> altura;
+	std::cout << "Insira o valor do comprimento da caixa retangular: " << std::endl;
+	std::cin >> comprimento;
+	std::cout << "Insira o valor da largura da caixa retangular: " << std::endl;
+	std::cin >> largura;
+	volume = altura * comprimento * largura;
+	std::cout << "O volume da caixa retangular eh: " << volume << std::endl;
+	return 0;	
+}
