@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+int main(){
+	float taxa, valor_conta, prestacao;
+	int tempo;
+	std::cout << "Insira o valor da conta: " << std::endl;
+	std::cin >> valor_conta;
+	std::cout << "Insira o valor da taxa: " << std::endl;
+	std::cin >> taxa;
+	std::cout << "Insira o tempo (em meses) do atraso: " << std::endl;
+	std::cin >> tempo;
+	prestacao = valor_conta + (valor_conta * (taxa / 100) * tempo);
+	std::cout << "O valor da prestacao eh: " << prestacao << std::endl;
+	return 0;
+}
