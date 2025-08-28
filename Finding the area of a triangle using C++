@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+int main(){
+	float b, h, area;
+	std::cout << "Insira o valor da base: " << std::endl;
+	std::cin >> b;
+	std::cout << "Insira o valor da altura: " << std::endl;
+	std::cin >> h;
+	area = 0.5 * (b * h);
+	std::cout << "A area do triangulo eh: " << area << std::endl;
+	return 0;	
+}
