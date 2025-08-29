@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+int main(){
+	float peso, altura, imc;
+	std::cout << "Calculo de IMC!";
+	std::cout << "Digite seu peso (em kg): " << std::endl;
+	std::cin >> peso;
+	std::cout << "Digite sua altura (em m): " << std::endl;
+	std::cin >> altura;
+	imc = peso / pow(altura, 2);
+	std::cout << "Seu IMC eh: " << std::fixed << std::setprecision(2) << imc << std::endl;
+	if (imc < 18.5){
+		std::cout << "Magreza" << std::endl;
+	} else if(imc >= 18.5 && imc <= 24.9){
+		std::cout << "Normal" << std::endl;
+	} else if (imc >= 25 && imc <= 29.9){
+		std::cout << "Sobrepeso" << std::endl;
+	} else if(imc >= 30 && imc <= 34.9){
+		std::cout << "Obesidade grau 1" << std::endl;
+	} else if(imc >= 35 && imc <= 39.9){
+		std::cout << "Obesidade grau 2" << std::endl;
+	} else{
+		std::cout << "Obesidade grau 3" << std::endl;
+	}
+	return 0;
+}
