@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+int main(){
+	float salario, salario_reajustado;
+	std::cout << "Calculo de reajuste salarial de 25%!" << std::endl;
+	std::cout << "Digite o valor do salario: " << std::endl;
+	std::cin >> salario;
+	salario_reajustado = salario + (salario * 0.25);
+	std::cout << "O valor do salario reajustado em 25% eh: " << std::fixed << std::setprecision(2) << salario_reajustado << std::endl;
+	return 0;
+}
