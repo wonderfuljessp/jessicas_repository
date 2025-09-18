@@ -1,0 +1,31 @@
+#include <iostream>
+int main(){
+	int dia;
+	std::cout << "Digite um numero de 1 a 7 p descobrir o dia da semana" << std::endl;
+	std::cin >> dia;
+	switch(dia){
+		case 1:
+			std::cout << "Eh domingo!" << std::endl;
+		break;
+		case 2:
+			std::cout << "Eh segunda-feira!" << std::endl;
+		break;
+		case 3:
+			std::cout << "Eh terca-feira!" << std::endl;
+		break;
+		case 4:
+			std::cout << "Eh quarta-feira!" << std::endl;
+		break;
+		case 5:
+			std::cout << "Eh quinta-feira!" << std::endl;
+		break;
+		case 6:
+			std::cout << "Eh sexta-feira!" << std::endl;
+		break;
+		case 7:
+			std::cout << "Eh sabado!" << std::endl;
+		break;
+		default:
+			std::cout << "Digite um numero valido" << std::endl;
+	}	
+}
