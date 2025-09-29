@@ -1,0 +1,13 @@
+#include <iostream>
+void function(int number1, int number2){
+    int product = number1 * number2;
+    std::cout << product << std::endl;
+}
+
+
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    function(a, b);
+    return 0;
+}
